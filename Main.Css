@@ -1,0 +1,131 @@
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+*/
+*{
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    padding: 20px 0px 0px 0px;
+}
+h1{
+    display: inherit;
+    font-family: 'Merriweather', serif;
+    color: #393E46;
+    margin-left: 20px;
+    font-size: 3em;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+h3{
+    display: table;
+    font-family: 'Roboto', sans-serif;
+    color: #393E46;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 1em;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.BackImage{
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+}
+
+.MainForm{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: table;
+    padding: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #EEEEEE;
+    background-color: #222831;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, .9);
+}
+input{
+    max-width: 70%;
+    transition: .5s;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
+    color: #222831;
+}
+input:focus {
+    max-width: 100%;
+    color: #EEEEEE;
+    box-shadow: inset 0px -78px 31px -73px #222831;
+}
+.Save{
+    width: 20%;
+    background-color: #EEEEEE;
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
+    color: #222831;
+    border: 0px;
+}
+.Save:hover{
+    background-color: #222831;
+    color: #EEEEEE;
+}
+.ImagePreview{
+    display: flex;
+    flex-flow: row;
+}
+
+.DixionarioImage{
+    position: relative;
+    width: 503px;
+    height: 503px;
+    min-width: 503px;
+    overflow: hidden;
+    margin: 30px;
+    margin-top: 0px;
+}
+.ImageBase{
+    position: relative;
+    width: 503px;
+    height: 503px;
+}
+
+.DixionarioImage p{
+    position: relative;
+    top: -100%;
+    font-family: 'Merriweather', serif;
+    padding: 50px;
+}
+.Title{
+    font-weight: bold;
+    font-size: 3em;
+}
+.Pre{
+    font-weight: bold;
+}
+.Content{
+    display: block;
+    font-size: 1.5em;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}

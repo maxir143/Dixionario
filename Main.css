@@ -86,6 +86,7 @@ input:focus {
     background-color: #222831;
     color: #EEEEEE;
 }
+
 .ImagePreview{
     display: flex;
     flex-flow: row;
@@ -114,16 +115,30 @@ input:focus {
 }
 .Title{
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 .Pre{
     font-weight: bold;
+    font-style: italic;
 }
-.Content{
+.button{
     display: block;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+.WM{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
 }
 
+.DixionarioImage .WaterMark{
+    position: absolute;
+    padding: 0px;
+    top: 460px;
+    margin-left: 25px;
+    color: rgba(0,0,0,.62);
+}
 footer{
     position: fixed;
     bottom: 10px;

@@ -28,6 +28,11 @@ $('#IDesc').on('input', function() {
     document.getElementById("Content").innerHTML = '<i class="Pre" id="Pre">'+Pre + ". "+'</i>'+Content;
 });
 
+/* WaterMark */
+$('#btnWM').click(function() {
+    $("#WMText").toggle(this.checked);
+});
+
 /* ScreenShot */
 $(function() {
     $("#btnSave").click(function() {

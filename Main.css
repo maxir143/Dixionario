@@ -152,14 +152,28 @@ footer{
         position: fixed;
         height: 100vh;
         width: auto;
+        margin: auto;
     }
     .ImagePreview{
         flex-flow: column-reverse;
+        max-width: 503px;
+        width: 100vw;
+        margin: auto;
     }
     .DixionarioImage{
         margin: auto;
         margin-bottom: 20px;
+        width: 100vw;
+        max-width: 503px;
+        max-height: 503px;
     }
+    .ImageBase{
+        position: relative;
+        width: 100vw;
+        max-width: 503px;
+        max-height: 503px;
+    }
+
     .MainForm{
         width: 100%;
         margin: auto;
@@ -174,8 +188,14 @@ footer{
         margin-bottom: 30px;
         width: 80%;
     }
+    .Save{
+        width: 40%;
+    }
     .WM{
         margin: auto;
+        text-align: left;
+        font-size: 1em;
+        padding: 10px;
     }
     footer{
         position: inherit;

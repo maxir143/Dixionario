@@ -144,3 +144,46 @@ footer{
     bottom: 10px;
     left: 10px;
 }
+
+
+/* cell */
+@media only screen and (max-width: 1150px) {
+    .BackImage{
+        position: fixed;
+        height: 100vh;
+        width: auto;
+    }
+    .ImagePreview{
+        flex-flow: column-reverse;
+    }
+    .DixionarioImage{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .MainForm{
+        width: 100%;
+        margin: auto;
+    }
+    label{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+    input{
+        margin: auto;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .WM{
+        margin: auto;
+    }
+    footer{
+        position: inherit;
+        text-align: center;
+        left: 25vw;
+        color: #fff;
+        font-size: 2em;
+        padding: 10px;
+    }
+
+}
